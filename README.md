@@ -1,9 +1,11 @@
+<!DOCTYPE html>
+<html lang="id">
 # web-portolio-akmal-teknik
 web portolio sederhana
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Akmal - Konfigurasi Mikrotik</title>
+  <title>Akmal - Belajar & Berbagi tentang Teknologi Jaringan</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <style>
     * {
@@ -72,41 +74,49 @@ web portolio sederhana
     .contact-form button:hover {
       background: #ddd;
       transform: scale(1.05);
-    }@media (max-width: 600px) {
-  header, section, footer {
-    padding: 1rem;
-  }
-  .hero img {
-    width: 150px;
-  }
-  .social-links a {
-    display: block;
-    margin: 0.5rem 0;
-  }
-}
-
+    } 
+    @media (max-width: 600px) {
+      header, section, footer {
+        padding: 1rem;
+      }
+      .hero img {
+        width: 150px;
+      }
+      .social-links a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Akmal</h1>
-    <p>Konfigurasi Mikrotik</p>
+    <p>Belajar & Berbagi tentang Teknologi Jaringan</p>
     <div class="hero">
       <!-- Ganti dengan foto profil kamu -->
       <img src="akmal1.png" alt="akmal1.png">
     </div>
-  </header>  <section>
+  </header>  
+
+  <section>
     <h2>Tentang Saya</h2>
-    <p>Saya adalah pribadi yang menyukai hal baru dan teknologi.</p>
-  </section>  <section>
+    <p>Teknologi adalah passion saya. Saya senang mempelajari sistem jaringan, konfigurasi perangkat, dan solusi digital untuk kehidupan sehari-hari.</p>
+  </section>  
+
+  <section>
     <h2>Keahlian</h2>
     <ul>
-      <li>Mengkonfigurasi jaringan</li>
+      <li>Saya menikmati belajar dan berkarya di bidang teknologi. Keahlian saya meliputi konfigurasi Mikrotik, desain visual di Canva, editing video di CapCut, dan mengoperasikan beberapa software pendukung lainnya.</li>
     </ul>
-  </section>  <section>
+  </section>  
+
+  <section>
     <h2>Portofolio</h2>
     <p>Lihat hasil kerja saya di <a href="https://github.com/akmalcreate" target="_blank">GitHub Akmal</a>.</p>
-  </section>  <section>
+  </section>  
+
+  <section>
     <h2>Kontak</h2>
     <div class="social-links">
       <a href="https://www.instagram.com/max_verstamall" target="_blank">Instagram</a>
@@ -114,7 +124,9 @@ web portolio sederhana
       <a href="https://t.me/akmalcher" target="_blank">Telegram</a>
       <a href="mailto:akmalalmagribi6@gmail.com">Email</a>
     </div>
-  </section>  <section>
+  </section>  
+
+  <section>
     <h2>Formulir Kontak</h2>
     <form class="contact-form">
       <input type="text" placeholder="Nama">
@@ -122,7 +134,9 @@ web portolio sederhana
       <textarea rows="5" placeholder="Pesan Anda"></textarea>
       <button type="submit">Kirim</button>
     </form>
-  </section>  <footer>
+  </section>  
+
+  <footer>
     <p>&copy; 2025 Akmal. All rights reserved.</p>
   </footer>
 </body>

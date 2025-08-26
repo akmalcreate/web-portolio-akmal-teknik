@@ -55,6 +55,13 @@ web portolio sederhana
     .social-links a:hover {
       transform: scale(1.1);
     }
+    .social-links img {
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
     .contact-form input, .contact-form textarea {
       width: 100%;
       margin-bottom: 1rem;
@@ -123,6 +130,9 @@ web portolio sederhana
       <a href="https://wa.me/6288214263826" target="_blank">WhatsApp</a>
       <a href="https://t.me/akmalcher" target="_blank">Telegram</a>
       <a href="mailto:akmalalmagribi6@gmail.com">Email</a>
+      <a href="https://youtube.com/@noircam?si=LqqovLuAZCy645qk" target="_blank">
+        <img src="Kucing.png" alt="YouTube Akmal"> YouTube
+      </a>
     </div>
   </section>  
 

@@ -1,28 +1,195 @@
 <!DOCTYPE html>
 <html lang="id">
-# web-portolio-akmal-teknik
-web portolio sederhana
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akmal - Belajar & Berbagi tentang Teknologi Jaringan</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
   <style>
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
     body {
       font-family: 'Poppins', sans-serif;
       margin: 0;
-      padding: 0;
       background-color: #111;
       color: #fff;
       animation: fadeIn 1.2s ease-in-out;
     }
+
     @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(20px); }
-      100% { opacity: 1; transform: translateY(0); }
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
+
+    header, footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #000;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .hero img {
+      width: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 1rem auto;
+      box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+
+    /* ===== PORTOFOLIO ===== */
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    .portfolio-card {
+      background: #1a1a1a;
+      padding: 1.2rem;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .portfolio-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(255,255,255,0.1);
+    }
+
+    .portfolio-card img {
+      width: 100%;
+      max-height: 140px;
+      object-fit: contain;
+      background: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 0.8rem;
+    }
+
+    /* ===== SOSIAL ===== */
+    .social-links a {
+      color: #fff;
+      margin: 0.5rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 6px;
+    }
+
+    .contact-form button {
+      background: #fff;
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      section { padding: 1rem; }
+      .hero img { width: 150px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Akmal</h1>
+  <p>Belajar & Berbagi tentang Teknologi Jaringan</p>
+  <div class="hero">
+    <img src="akmal1.png" alt="Foto Akmal">
+  </div>
+</header>
+
+<section>
+  <h2>Tentang Saya</h2>
+  <p>Teknologi adalah passion saya. Saya senang mempelajari sistem jaringan, konfigurasi perangkat, dan solusi digital.</p>
+</section>
+
+<section>
+  <h2>Keahlian</h2>
+  <ul>
+    <li>Konfigurasi Mikrotik</li>
+    <li>Desain visual (Canva)</li>
+    <li>Editing video (CapCut)</li>
+    <li>Software pendukung teknologi</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Portofolio</h2>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-card">
+      <img src="logosepatukucing.png" alt="Logo Shoe Cat">
+      <h3>Shoe Cat</h3>
+      <p>Logo brand sepatu Shoe Cat dengan konsep sport & street.</p>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="logoPendepokan.png" alt="Logo Pendepokan Mustika Walet Putih">
+      <h3>Pencak Silat Walet Putih</h3>
+      <p>Logo pendepokan Mustika Walet Putih dengan identitas bela diri.</p>
+    </div>
+
+   <div class="portfolio-card">
+      <img src="waletputih.png" alt="Logo Walet Putih Kabupaten Bogor">
+      <h3>Walet Putih Kab. Bogor</h3>
+      <p>Logo pencak silat Walet Putih wilayah Kabupaten Bogor.</p>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="promosepatu.png" alt="Desain Promosi Sepatu">
+      <h3>Desain Promosi Sepatu</h3>
+      <p>Desain visual promosi sepatu untuk kebutuhan branding.</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Kontak</h2>
+  <div class="social-links">
+    <a href="https://www.instagram.com/max_verstamall" target="_blank">Instagram</a>
+    <a href="https://wa.me/6288214263826" target="_blank">WhatsApp</a>
+    <a href="https://t.me/akmalcher" target="_blank">Telegram</a>
+    <a href="mailto:akmalalmagribi6@gmail.com">Email</a>
+  </div>
+</section>
+
+<section>
+  <h2>Formulir Kontak</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Nama Lengkap">
+    <input type="email" placeholder="Email Aktif">
+    <textarea rows="5" placeholder="Tulis pesan kamu di sini..."></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Akmal. All rights reserved.</p>
+</footer>
+
+</body>
+</html>    }
     header, footer {
       text-align: center;
       padding: 2rem;

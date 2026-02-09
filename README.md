@@ -188,7 +188,7 @@
 <section>
   <h2>Kontak</h2>
   <div class="social-links">
-    <a href="https://www.instagram.com/akmal.mgr?igsh=MWt3cHlzZnl4anZzOQ==" target="_blank">Instagram</a>
+    <a href="https://www.instagram.com/akmal.mgr?igsh=anBsODV1ZmJxNHVh" target="_blank">Instagram</a>
     <a href="https://wa.me/6288214263826" target="_blank">WhatsApp</a>
     <a href="https://t.me/akmalcher" target="_blank">Telegram</a>
     <a href="mailto:akmalalmagribi6@gmail.com">Email</a>

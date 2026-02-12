@@ -32,7 +32,7 @@
 
     section {
       padding: 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
 
@@ -75,6 +75,42 @@
       margin-bottom: 0.8rem;
     }
 
+    /* ===== AKTIVITAS ===== */
+    .activity-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    .activity-card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .activity-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(255,255,255,0.1);
+    }
+
+    .activity-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .activity-card h3 {
+      padding: 1rem 1rem 0.3rem;
+    }
+
+    .activity-card p {
+      padding: 0 1rem 1rem;
+      font-size: 14px;
+      color: #ccc;
+    }
+
     /* ===== SOSIAL ===== */
     .social-links a {
       color: #fff;
@@ -86,14 +122,6 @@
 
     .social-links a:hover {
       transform: scale(1.1);
-    }
-
-    .social-links img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      vertical-align: middle;
-      margin-right: 5px;
     }
 
     .contact-form input,
@@ -155,31 +183,57 @@
 
 <section>
   <h2>Portofolio</h2>
-
   <div class="portfolio-grid">
 
     <div class="portfolio-card">
-      <img src="logosepatukucing.png" alt="Logo Shoe Cat">
+      <img src="logosepatukucing.png">
       <h3>Shoe Cat</h3>
       <p>Logo brand sepatu Shoe Cat dengan konsep sport & street.</p>
     </div>
 
     <div class="portfolio-card">
-      <img src="logoPendepokan.png" alt="Pendepokan Mustika Walet Putih">
+      <img src="logoPendepokan.png">
       <h3>Pencak Silat Walet Putih</h3>
       <p>Logo pendepokan Mustika Walet Putih.</p>
     </div>
 
     <div class="portfolio-card">
-      <img src="waletputih.png" alt="Walet Putih Bogor">
+      <img src="waletputih.png">
       <h3>Walet Putih Kab. Bogor</h3>
       <p>Logo pencak silat Walet Putih Kabupaten Bogor.</p>
     </div>
 
     <div class="portfolio-card">
-      <img src="promosepatu.png" alt="Promosi Sepatu">
+      <img src="promosepatu.png">
       <h3>Desain Promosi Sepatu</h3>
       <p>Desain visual promosi sepatu.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== AKTIVITAS WINBOX ===== -->
+<section>
+  <h2>Dokumentasi Praktik TKJ - 25 Mei 2025</h2>
+
+  <div class="activity-grid">
+
+    <div class="activity-card">
+      <img src="komputer.png">
+      <h3>Konfigurasi Awal Router MikroTik</h3>
+      <p>Pengaturan IP Address, konfigurasi interface, dan pengecekan koneksi jaringan menggunakan Winbox.</p>
+    </div>
+
+    <div class="activity-card">
+      <img src="tkj.png">
+      <h3>Praktik Jaringan di Lab TKJ</h3>
+      <p>Praktik konfigurasi jaringan bersama di laboratorium TKJ dengan pengawasan guru.</p>
+    </div>
+
+    <div class="activity-card">
+      <img src="tkj2.png">
+      <h3>Monitoring & Troubleshooting</h3>
+      <p>Monitoring traffic jaringan serta troubleshooting untuk memastikan koneksi stabil.</p>
     </div>
 
   </div>
@@ -192,9 +246,7 @@
     <a href="https://wa.me/6288214263826" target="_blank">WhatsApp</a>
     <a href="https://t.me/akmalcher" target="_blank">Telegram</a>
     <a href="mailto:akmalalmagribi6@gmail.com">Email</a>
-    <a href="https://youtube.com/@noircam" target="_blank">
-      <img src="Kucing.png" alt="YouTube"> YouTube
-    </a>
+    <a href="https://youtube.com/@noircam" target="_blank">YouTube</a>
   </div>
 </section>
 

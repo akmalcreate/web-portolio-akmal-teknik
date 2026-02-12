@@ -219,19 +219,19 @@
   <div class="activity-grid">
 
     <div class="activity-card">
-      <img src="komputer.png">
+      <img src="komputer.png.jpg">
       <h3>Konfigurasi Awal Router MikroTik</h3>
       <p>Pengaturan IP Address, konfigurasi interface, dan pengecekan koneksi jaringan menggunakan Winbox.</p>
     </div>
 
     <div class="activity-card">
-      <img src="tkj.png">
+      <img src="tkj.png.jpg">
       <h3>Praktik Jaringan di Lab TKJ</h3>
       <p>Praktik konfigurasi jaringan bersama di laboratorium TKJ dengan pengawasan guru.</p>
     </div>
 
     <div class="activity-card">
-      <img src="tkj2.png">
+      <img src="tkj2.png.jpg">
       <h3>Monitoring & Troubleshooting</h3>
       <p>Monitoring traffic jaringan serta troubleshooting untuk memastikan koneksi stabil.</p>
     </div>
